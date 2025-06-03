@@ -4,7 +4,7 @@ pipeline {
     tools {
         // Configure Node.js 24.1.0 in Jenkins:
         // Manage Jenkins > Global Tool Configuration > NodeJS installations
-        nodejs 'nodejs-24.1.0'
+        nodejs 'node-24.1.0'
     }
 
     stages {
